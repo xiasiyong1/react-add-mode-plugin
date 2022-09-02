@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import add from "components/test";
+
+console.log("add", add(1, 2));
 
 function App() {
   return (
